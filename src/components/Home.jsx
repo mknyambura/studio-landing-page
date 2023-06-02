@@ -199,7 +199,7 @@ function Home() {
                     <div className='flex flex-col gap-4'>
                         <img src={article2} alt="" />
                         <div className='flex  flex-col gap-4'>
-                            <h1 className='text-2xl font-semibold'>10 amaxing and free to use google fonts</h1>
+                            <h1 className='text-2xl font-semibold'>10 amazing and free to use google fonts</h1>
                             <div className='bg-white/70 h-[2px]'></div>
                             <div className='flex flex-row justify-between'>
                                 <h1 className='text-xl font-bold hover:underline hover:cursor-pointer'>Read More</h1>
