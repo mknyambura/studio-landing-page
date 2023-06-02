@@ -8,15 +8,18 @@ import { SiTwoo } from 'react-icons/si'
 
 function Footer() {
   return (
-    <div className='flex flex-row justify-between m-8'>
-        <h6 className='font-semibold'>Copyright © 2023 Mercy Faith Nyambura Kariuki . All Rights Reseved.</h6>
-        <div className='flex flex-row justify-between gap-5'>
-            <FaLinkedinIn/>
-            <SiMessenger/>
-            <BsTwitter/>
-            <SiTwoo/>
+    <>
+        <div className='bg-white/40 h-[1px] mt-16'></div>
+        <div className='flex flex-row justify-between m-8'>
+            <h6 className='font-semibold'>Copyright © 2023 Mercy Faith Nyambura Kariuki . All Rights Reseved.</h6>
+            <div className='flex flex-row justify-between gap-5'>
+                <FaLinkedinIn/>
+                <SiMessenger/>
+                <BsTwitter/>
+                <SiTwoo/>
+            </div>
         </div>
-    </div>
+    </>
   )
 }
 

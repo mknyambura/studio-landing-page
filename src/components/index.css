@@ -1,0 +1,10 @@
+.head{
+    background-image: url(/src/images/lines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.foot {
+    background-image: url(/src/images/lines.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
